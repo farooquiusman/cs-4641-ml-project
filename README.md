@@ -9,8 +9,6 @@ Purchasing a home is a major financial investment for countless people in the US
 
 ## Methods
 ### Supervised Learning
-#### Support Vector Machines:
-This method can be used for both classification and regression tasks. For house price prediction, a regression task, it visually represents the connection between input features and the predicted house prices using a regression line.
 
 #### Random Forest Regressor:
 This approach predicts continuous numerical values and captures intricate and nonlinear associations between house prices and features. A mix of  parametric and non-parametric regression provides the most accurate models [2].
