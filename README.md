@@ -23,6 +23,8 @@ Pandas, Matplotlib, Seaborn
 
 ## Potential Results and Discussion
 To determine the accuracy of our model we will first train the model using older housing data and compare the expected value to the actual value using resources such as Zillow. They used a similar process to check the validity of their model [3]. Once our model’s accuracy has been verified across several geographic areas and parameters we will be able to use it to predict future housing trends and pricing. Ensuring our model works across multiple parameters is very important, as there are a multitude of factors such as: weather, crime, schools, and income that affect housing prices and our model needs to take all of them into account. For our model to be truly universal it needs to be able to be accurate over a wide variety of geographical areas. Our acceptable margins for error will be decided later once we are at a point to begin testing and comparing results.
+## Results and Discussion
+### Dataset Breakdown
 
 ## Gantt Chart
 https://bit.ly/ml-gantt-chart
