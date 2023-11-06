@@ -36,6 +36,8 @@ After training our linear regression model, the next step was to analyze our acc
 ![image](https://github.com/farooquiusman/house-price-prediction-model/assets/122696234/e05b9f98-c883-413d-9897-663846da847a)
 Along with this geographical visualization, a heatmap was created using one-hot encoding for the "ocean-proximity features".
 ![image](https://github.com/farooquiusman/house-price-prediction-model/assets/122696234/30722734-a14e-4492-aa2c-328a2c156a9d)
+This visualization will allow us to better understand how each variable affects the overall property value, and improve our model going forward.
+
 
 ## Next Step
 Our next step involves implementing a Random Forest Regressor, a reliable and straightforward method known for producing accurate results. Here's a step-by-step guide:
