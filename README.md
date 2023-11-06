@@ -1,4 +1,4 @@
-<img width="450" alt="Screenshot 2023-11-05 at 8 54 26 PM" src="https://github.com/farooquiusman/house-price-prediction-model/assets/113317744/6927212b-f207-428e-a513-2b0a1629f1e9">
+![Background Image](/house-price-prediction-model/assets/css/280572844-6927212b-f207-428e-a513-2b0a1629f1e9.png)
 
 # House Price Prediction Model
 Project Group 114: Nick Bergeron, Taeho Park, Usman Farooqui, Shubham Jha
