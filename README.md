@@ -24,6 +24,8 @@ To determine the accuracy of our model we will first train the model using older
 ## Results and Discussion
 ### Dataset Breakdown
 Our dataset consists of property values [provided by Kaggle](https://www.kaggle.com/datasets/camnugent/california-housing-prices) from the 1990 California census for all residential properties in each district. This dataset was very straightforward to work with and encompassed more than enough datapoints for our training model to work with while giving a wide variety of types of properties for our model. For each property, there are varables describing information about both the house and the people living in it. Each row corresponds to a census block group, which is the smalles geographical unit the U.S. census publishes data for. While the data may seem old, age does not matter for the purpose of training our model, and inflation is very easy to adjust for by year. 
+### Dataset Pre-processing
+
 ## Gantt Chart
 
 ## Gantt Chart
