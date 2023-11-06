@@ -33,17 +33,17 @@ Our dataset consists of property values [provided by Kaggle](https://www.kaggle.
 ## Next Step
 Our next step involves implementing a Random Forest Regressor, a reliable and straightforward method known for producing accurate results. Here's a step-by-step guide:
 1. Data Collection and Preprocessing:
-    Markup: * Begin by gathering data encompassing various house features, such as square footage, the number of bedrooms, location, and more. Preprocess the data to address missing values, encode categorical variables, and if necessary, normalize or scale numerical features.
+    Markup : * Begin by gathering data encompassing various house features, such as square footage, the number of bedrooms, location, and more. Preprocess the data to address missing values, encode categorical variables, and if necessary, normalize or scale numerical features.
 2. Data Splitting:
-    Markup: * Divide your dataset into two essential parts: a training set and a test set. This division is crucial for assessing the model's performance.
+    Markup : * Divide your dataset into two essential parts: a training set and a test set. This division is crucial for assessing the model's performance.
 3. Random Forest Regressor Creation and Training:
-    Markup: * Initialize a Random Forest Regressor, carefully setting its hyperparameters. Then, train the model using the training data.
+    Markup : * Initialize a Random Forest Regressor, carefully setting its hyperparameters. Then, train the model using the training data.
 4. Prediction Generation:
-    Markup: * Utilize the trained model to make predictions on the test data, allowing you to evaluate its predictive capabilities.
+    Markup : * Utilize the trained model to make predictions on the test data, allowing you to evaluate its predictive capabilities.
 5. Model Evaluation:
-    Markup: * Assess the model's performance using common regression metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), or Root Mean Squared Error (RMSE). Lower values of these metrics indicate more accurate predictions. Consider additional evaluation metrics like R-squared (R^2) to further gauge the model's explanatory power.
+    Markup : * Assess the model's performance using common regression metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), or Root Mean Squared Error (RMSE). Lower values of these metrics indicate more accurate predictions. Consider additional evaluation metrics like R-squared (R^2) to further gauge the model's explanatory power.
 6. Model Refinement:
-    Markup: * As you progress, keep in mind that not all features are equally significant. Continually assess the importance of each feature and consider feature selection or engineering to enhance the model's performance. Fine-tune hyperparameters as needed and retrain the model to achieve optimal results.
+    Markup : * As you progress, keep in mind that not all features are equally significant. Continually assess the importance of each feature and consider feature selection or engineering to enhance the model's performance. Fine-tune hyperparameters as needed and retrain the model to achieve optimal results.
 This approach ensures a systematic and effective process while emphasizing the importance of feature selection and hyperparameter tuning for a successful Random Forest Regressor implementation.
 
 ## Gantt Chart
