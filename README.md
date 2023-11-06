@@ -16,6 +16,8 @@ Purchasing a home is a major financial investment for countless people in the US
 #### Data Preprocessing:
 <img width="831" alt="Screenshot 2023-11-05 at 8 21 37 PM" src="assets/css/before.png"> 
 (histograms before applying log_normal)
+
+
 <img width="831" alt="Screenshot 2023-11-05 at 8 21 37 PM" src="assets/css/histogram_image.png"> 
 (histograms after applying log_normal)
 
