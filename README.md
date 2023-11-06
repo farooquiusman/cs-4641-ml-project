@@ -38,6 +38,7 @@ Our next step involves implementing a Random Forest Regressor, a reliable and st
 4. Prediction Generation: Utilize the trained model to make predictions on the test data, allowing you to evaluate its predictive capabilities.
 5. Model Evaluation: Assess the model's performance using common regression metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), or Root Mean Squared Error (RMSE). Lower values of these metrics indicate more accurate predictions. Consider additional evaluation metrics like R-squared (R^2) to further gauge the model's explanatory power.
 6. Model Refinement: As you progress, keep in mind that not all features are equally significant. Continually assess the importance of each feature and consider feature selection or engineering to enhance the model's performance. Fine-tune hyperparameters as needed and retrain the model to achieve optimal results.
+
 This approach ensures a systematic and effective process while emphasizing the importance of feature selection and hyperparameter tuning for a successful Random Forest Regressor implementation.
 
 ## Gantt Chart
