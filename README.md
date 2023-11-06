@@ -1,4 +1,6 @@
+body {
 background-image : url("https://github.com/farooquiusman/house-price-prediction-model/assets/113317744/4d2bddf8-2379-48e7-b2d3-f66799513a02")
+}
 
 # House Price Prediction Model
 Project Group 114: Nick Bergeron, Taeho Park, Usman Farooqui, Shubham Jha
