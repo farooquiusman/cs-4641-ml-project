@@ -62,7 +62,7 @@ This approach ensures a systematic and effective process while emphasizing the i
 https://bit.ly/ml-gantt-chart
 
 ## Contribution Table
-<img width="831" alt="Screenshot 2023-11-05 at 8 21 37 PM" src="assets/css/new_heatmap.png">
+<img width="831" alt="Screenshot 2023-11-05 at 8 21 37 PM" src="assets/css/ContributionTable.png">
 
 ## References
 [1] N. Ghosalkar and S. Dhage, Real estate value prediction using linear regression | IEEE conference ..., https://ieeexplore.ieee.org/document/8697639 (accessed Oct. 6, 2023).\
