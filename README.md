@@ -1,5 +1,7 @@
+<img width="451" alt="Screenshot 2023-11-05 at 7 57 52 PM" src="https://github.com/farooquiusman/house-price-prediction-model/assets/113317744/4d2bddf8-2379-48e7-b2d3-f66799513a02">
 # House Price Prediction Model
 Project Group 114: Nick Bergeron, Taeho Park, Usman Farooqui, Shubham Jha
+
 
 ## Introduction/Background
 This proposal describes a Machine Learning project that uses the dataset from Zillow to forecast home values. Our goal is to create a prediction model that uses a variety of features and past data to reliably estimate residential property values. The House Price Prediction Model project addresses the growing demand for reliable property valuation models, benefiting homebuyers, sellers, and investors. We will use machine learning methods to build a strong model for high-accuracy property value estimation by utilizing a diversified dataset that includes property attributes, geographical data, and historical pricing information [1].  This proposal will go into detail about our technique, approach, and possible effects of our projections on the housing market.
