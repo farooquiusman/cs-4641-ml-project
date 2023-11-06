@@ -18,7 +18,7 @@ Furthermore, we explored the relationship between ocean proximity and housing pr
 Lastly, we created a new heatmap to visually represent the correlations between housing value and the newly encoded 'ocean_proximity' data, along with other relevant variables. This will help in gaining a more nuanced understanding of the factors that influence house prices in our dataset.
 
 #### Linear Regressor:
-Linear regression is valuable for modeling the connection between a dependent variable (the target or output) and multiple independent variables (predictors or features). This is particularly advantageous predicting SalePrice based on features like Neighor, YearRenovated, and others.
+we developed a linear regression model using Python's scikit-learn library to predict median house values based on a set of housing-related attributes. After importing the necessary modules, we prepared our training data by dropping the target variable 'median_house_value' from our feature set and assigning it to our target variable, y_train. We then instantiated the LinearRegression model and fitted it to our training data to create a predictive model. To ensure the model's compatibility with the test data, we also performed similar preprocessing steps on the test set, including joining features and target variables, transforming certain features using the natural logarithm for normalization purposes, and handling categorical data. Finally, we evaluated the model's accuracy by predicting the median house values of the test set and calculating metrics such as the mean squared error and the coefficient of determination, or R² score.
 
 #### Libraries:
 Pandas, Matplotlib, Seaborn
