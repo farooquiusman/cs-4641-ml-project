@@ -14,8 +14,8 @@ Purchasing a home is a major financial investment for countless people in the US
 ### Supervised Learning
 
 #### Data Preprocessing:
-<span class="label-text">(histograms before applying log_normal)</span>
-<img width="831" alt="Screenshot 2023-11-05 at 8 21 37 PM" src="assets/css/before.png"> 
+<span class="label-text">(histograms before applying log_normal)</span> <br>
+<img width="831" alt="Screenshot 2023-11-05 at 8 21 37 PM" src="assets/css/before.png"> <br>
 
 <span class="label-text">(histograms after applying log_normal)</span>
 <img width="831" alt="Screenshot 2023-11-05 at 8 21 37 PM" src="assets/css/histogram_image.png">
