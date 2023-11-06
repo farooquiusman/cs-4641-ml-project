@@ -10,8 +10,12 @@ Purchasing a home is a major financial investment for countless people in the US
 ## Methods
 ### Supervised Learning
 
-#### Random Forest Regressor:
-This approach predicts continuous numerical values and captures intricate and nonlinear associations between house prices and features. A mix of  parametric and non-parametric regression provides the most accurate models [2].
+#### Data Prepocessing:
+During the initial phase of our data cleaning process, we identified and eliminated all instances of null entries and any data points that were deemed redundant or of no value to our analysis. Our examination of the dataset through histograms revealed that thedistribution of variables such as total_rooms, total_bedrooms, population, and households is notably right-skewed. To address this and normalize the data we applyied a logarithmic transformation , which brought the distribution of these variables closer to a standard bell curve shape.
+
+Furthermore, we explored the relationship between ocean proximity and housing prices. The visual data suggests that properties located nearer to the coast tend to have higher median house values. To quantitatively assess this observation, we have implemented one-hot encoding for the 'ocean_proximity' feature. This transformation will enable us to incorporate this categorical variable into our models more effectively and examine its potential impact on the median house value.
+
+Lastly, we created a new heatmap to visually represent the correlations between housing value and the newly encoded 'ocean_proximity' data, along with other relevant variables. This will help in gaining a more nuanced understanding of the factors that influence house prices in our dataset.
 
 #### Linear Regressor:
 Linear regression is valuable for modeling the connection between a dependent variable (the target or output) and multiple independent variables (predictors or features). This is particularly advantageous predicting SalePrice based on features like Neighor, YearRenovated, and others.
