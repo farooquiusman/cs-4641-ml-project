@@ -14,6 +14,8 @@ Purchasing a home is a major financial investment for countless people in the US
 ### Supervised Learning
 
 #### Data Preprocessing:
+<img width="831" alt="Screenshot 2023-11-05 at 8 21 37 PM" src="https://github.com/farooquiusman/house-price-prediction-model/assets/113317744/f2b7a419-95fb-4132-a829-4a894580146d">
+
 During the initial phase of our data cleaning process, we identified and eliminated all instances of null entries and any data points that were deemed redundant or of no value to our analysis. Our examination of the dataset through histograms revealed that thedistribution of variables such as total_rooms, total_bedrooms, population, and households is notably right-skewed. To address this and normalize the data we applyied a logarithmic transformation , which brought the distribution of these variables closer to a standard bell curve shape.
 
 Furthermore, we explored the relationship between ocean proximity and housing prices. The visual data suggests that properties located nearer to the coast tend to have higher median house values. To quantitatively assess this observation, we have implemented one-hot encoding for the 'ocean_proximity' feature. This transformation will enable us to incorporate this categorical variable into our models more effectively and examine its potential impact on the median house value.
