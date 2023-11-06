@@ -14,12 +14,11 @@ Purchasing a home is a major financial investment for countless people in the US
 ### Supervised Learning
 
 #### Data Preprocessing:
-<img width="831" alt="Screenshot 2023-11-05 at 8 21 37 PM" src="assets/css/before.png"> 
 <span class="label-text">(histograms before applying log_normal)</span>
+<img width="831" alt="Screenshot 2023-11-05 at 8 21 37 PM" src="assets/css/before.png"> 
 
-
-<img width="831" alt="Screenshot 2023-11-05 at 8 21 37 PM" src="assets/css/histogram_image.png">
 <span class="label-text">(histograms after applying log_normal)</span>
+<img width="831" alt="Screenshot 2023-11-05 at 8 21 37 PM" src="assets/css/histogram_image.png">
 
 During the initial phase of our data cleaning process, we identified and eliminated all instances of null entries and any data points that were deemed redundant or of no value to our analysis. Our examination of the dataset through histograms revealed that the distribution of variables such as total_rooms, total_bedrooms, population, and households is notably right-skewed. To address this and normalize the data we applyied a logarithmic transformation , which brought the distribution of these variables closer to a standard bell curve shape.
 
