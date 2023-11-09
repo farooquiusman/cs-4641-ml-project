@@ -47,9 +47,9 @@ Along with this geographical visualization, a heatmap was created using one-hot 
 This visualization will allow us to better understand how each variable affects the overall property value, and improve our model going forward.
 
 
-## Next Step
-One approach to approve the linear regression model is to utilize PCA's ability to combine highly correlated variables into a set of uncorrelated variables by leveraging multicollinearity (e.g. total_rooms and total_bedrooms), reducing the dimensions of the feature space. We would then perform regression on these updated features to potentially improve the model. Another potential approach to increase the effectiveness of our model is to utilize ridge regression as well since it is also good at dealing with multicollinearity.   
-Our next step involves implementing a Random Forest Regressor, a reliable and straightforward method known for producing accurate results. Here's a step-by-step guide:
+## Next Steps
+One approach to approve the linear regression model is to utilize PCA's ability to combine highly correlated variables into a set of uncorrelated variables by leveraging multicollinearity (e.g. total_rooms and total_bedrooms), reducing the dimensions of the feature space. We would then perform regression on these updated features to potentially improve the model. Another potential approach to increase the effectiveness of our model is to utilize ridge regression as well since it is also good at dealing with multicollinearity.     
+Another next step involves implementing a Random Forest Regressor, a reliable and straightforward method known for producing accurate results. Here's a step-by-step guide:
 1. Data Collection and Preprocessing: Begin by gathering data encompassing various house features, such as square footage, the number of bedrooms, location, and more. Preprocess the data to address missing values, encode categorical variables, and if necessary, normalize or scale numerical features.
 2. Data Splitting: Divide your dataset into two essential parts: a training set and a test set. This division is crucial for assessing the model's performance.
 3. Random Forest Regressor Creation and Training: Initialize a Random Forest Regressor, carefully setting its hyperparameters. Then, train the model using the training data.
