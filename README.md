@@ -83,7 +83,7 @@ If we decide to move forward with our project, there are several key areas we ca
 https://bit.ly/ml-gantt-chart
 
 ## Contribution Table
-<img width="831" alt="Screenshot 2023-11-05 at 8 21 37 PM" src="assets/css/ContributionTable.png">
+<img width="831" alt="Screenshot 2023-11-05 at 8 21 37 PM" src="assets/css/new_ContributionTable.png">
 
 ## References
 [1] N. Ghosalkar and S. Dhage, Real estate value prediction using linear regression | IEEE conference ..., https://ieeexplore.ieee.org/document/8697639 (accessed Oct. 6, 2023).\
