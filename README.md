@@ -53,17 +53,27 @@ The first improvement made to our linear regression model was the implementation
 
 
 ## Next Steps
-One approach to approve the linear regression model is to utilize PCA's ability to combine highly correlated variables into a set of uncorrelated variables by leveraging multicollinearity (e.g. total_rooms and total_bedrooms), reducing the dimensions of the feature space. We would then perform regression on these updated features to potentially improve the model. Another potential approach to increase the effectiveness of our model is to utilize ridge regression as well since it is also good at dealing with multicollinearity.  
-<br />
-Another next step involves implementing a Random Forest Regressor, a reliable and straightforward method known for producing accurate results. Here's a step-by-step guide:
-1. Data Collection and Preprocessing: Begin by gathering data encompassing various house features, such as square footage, the number of bedrooms, location, and more. Preprocess the data to address missing values, encode categorical variables, and if necessary, normalize or scale numerical features.
-2. Data Splitting: Divide your dataset into two essential parts: a training set and a test set. This division is crucial for assessing the model's performance.
-3. Random Forest Regressor Creation and Training: Initialize a Random Forest Regressor, carefully setting its hyperparameters. Then, train the model using the training data.
-4. Prediction Generation: Utilize the trained model to make predictions on the test data, allowing you to evaluate its predictive capabilities.
-5. Model Evaluation: Assess the model's performance using common regression metrics like Root Mean Squared Error (RMSE). Lower values of these metrics indicate more accurate predictions. Consider additional evaluation metrics like R-squared (R^2) to further gauge the model's explanatory power.
-6. Model Refinement: As you progress, keep in mind that not all features are equally significant. Continually assess the importance of each feature and consider feature selection or engineering to enhance the model's performance. Fine-tune hyperparameters as needed and retrain the model to achieve optimal results.
+If we decide to move forward with our project, there are several key areas we can plan to focus on to enhance the performance and applicability of our house price prediction model:
 
-This approach ensures a systematic and effective process while emphasizing the importance of feature selection and hyperparameter tuning for a successful Random Forest Regressor implementation.
+1.) Advanced Feature Engineering: We'll delve into sophisticated feature engineering to uncover deeper insights from our data.
+
+2.) Model Ensemble Techniques: We can combine the strengths of Random Forest and Ridge Regression using ensemble methods like stacking.
+
+3.) Feature Importance Analysis: A thorough analysis of feature importance in our Random Forest model will help us refine our feature set.
+
+4.) Cross-Validation and Evaluation: We'll employ cross-validation for robustness and use diverse metrics for a comprehensive evaluation of our models.
+
+5.) Error Analysis: Investigating the errors our models make will be crucial for further refinement.
+
+6.) Model Interpretability: We aim to enhance the interpretability of our complex models, using tools like SHAP or LIME for clearer insights.
+
+7.) Deployment Strategy: If we plan to deploy our model, we can potentially do it through a web application or API.
+
+8.) Real-world Testing and Feedback: Testing with real-world data and establishing a feedback loop will be key for continuous improvement.
+
+8.) Documentation and Reporting: We will maintain detailed documentation for transparency and future enhancements.
+
+9.) Ethical Considerations and Bias Mitigation: Ensuring fairness and non-discrimination in our model's predictions is a top priority. There is a lot of people doing similar work as us so we need to ensure we are not using someone else's intellectual property.
 
 ## Gantt Chart
 https://bit.ly/ml-gantt-chart
