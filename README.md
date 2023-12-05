@@ -75,9 +75,9 @@ If we decide to move forward with our project, there are several key areas we ca
 
 8.) Real-world Testing and Feedback: Testing with real-world data and establishing a feedback loop will be key for continuous improvement.
 
-8.) Documentation and Reporting: We will maintain detailed documentation for transparency and future enhancements.
+9.) Documentation and Reporting: We will maintain detailed documentation for transparency and future enhancements.
 
-9.) Ethical Considerations and Bias Mitigation: Ensuring fairness and non-discrimination in our model's predictions is a top priority. There is a lot of people doing similar work as us so we need to ensure we are not using someone else's intellectual property.
+10.) Ethical Considerations and Bias Mitigation: Ensuring fairness and non-discrimination in our model's predictions is a top priority. There is a lot of people doing similar work as us so we need to ensure we are not using someone else's intellectual property.
 
 ## Gantt Chart
 https://bit.ly/ml-gantt-chart
