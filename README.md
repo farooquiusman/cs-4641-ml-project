@@ -47,6 +47,7 @@ Along with this geographical visualization, a heatmap was created using one-hot 
 
 This visualization will allow us to better understand how each variable affects the overall property value, and improve our model going forward.
 #### Ridge Regression
+The first improvement made to our linear regression model was the implementation of a Ridge Regression Model. Ridge regression is designed to address issues caused by multicollinearity(where independent variables are highly correlated) in linear regression models. In the case of our linear regression model, multicollinearity was a minor issue as the Ride Regression addition marginally improved the performance of our model. RMSE decreased from 65413.56 to 65397.33 and Coefficient of Determination Regression Score increased from 0.6763 to 0.6765. If multicollinearity had a significant impact on our original model, ridge regression would have improved its performance by a higher degree.
 #### Random Forest
 #### Gradient Boosting
 
